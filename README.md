@@ -1,4 +1,4 @@
-# Yii2 Fluent Interface Behavior
+# Yii2 Fluent Component Behavior
 
 Behavior that implements fluent interface methods for component attributes.
 
