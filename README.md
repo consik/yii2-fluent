@@ -48,7 +48,7 @@ Sets value to component property
 
 Unsets component property
 
-* ``` $this addItemTo(string $arrName, mixed $value, $initOnEmpty = true)```
+* ``` $this addItemTo(string $arrName, mixed $value, bool $initOnEmpty = true)```
 
 Adds ```$item``` to array property with name ```$arrName```;
 
@@ -140,7 +140,7 @@ Basic comment for all components with attached FluentInterfaceBehavior
  * Class YourClass
  * @method $this setProperty(string $name, $value)
  * @method $this unsetProperty(string $name)
- * @method $this addItemTo(string $arrName, mixed $item)
+ * @method $this addItemTo(string $arrName, mixed $item, bool $initOnEmpty = true)
  */
  class YourClass extends \yii\base\components { ... }
 ```
