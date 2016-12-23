@@ -132,7 +132,7 @@ Basic comment for all components with attached FluentInterfaceBehavior
 ```
 @method $this setProperty(string $name, $value)
 @method $this unsetProperty(string $name)
-@method $this addItemTo(string $arrName, mixed $item)
+@method $this addItemTo(string $arrName, mixed $item, bool $initOnEmpty = true)
 ```
 ```php
 <?php
