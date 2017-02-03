@@ -54,7 +54,7 @@ Adds ```$item``` to array property with name ```$arrName```;
 
 Throws exception if ```$component->{$arrName}``` is ```!empty() && !is_array()```;
 
-initializes ```$component->{$arrName}``` as empty array if ```($initOnEmpty && empty($component->{$arrName}) && !is_array($component->{$arrName}))``` ;
+initializes ```$component->{$arrName}``` as empty array if ```($initOnEmpty && empty($component->{$arrName}))``` ;
 
 ## Examples
 
